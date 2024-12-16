@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Développeur Full Stack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Développeur Full Stack</h1>
+        <p>Compétences en BD, JavaScript, PHP, HTML, CSS, C#</p>
+    </header>
+
+    <!-- Profil avec photo et logo -->
+    <div class="profile">
+        <img src="image/marie.jpg" alt="Photo de profil">
+        <div class="info">
+            <h2>Marie Victoire Dev</h2>
+            <p>Développeur Full Stack avec des compétences solides en développement web, gestion de bases de données, et technologies côté serveur. Passionné par la création de solutions innovantes et performantes.</p>
+        </div>
+    </div>
+
+    <!-- Compétences -->
+    <div class="skills">
+        <h2>Mes Compétences</h2>
+        <ul>
+            <li>Bases de données (MySQL, PostgreSQL)</li>
+            <li>JavaScript & jQuery</li>
+            <li>PHP & MySQL</li>
+            <li>HTML, CSS</li>
+            <li>C# & ASP.NET</li>
+        </ul>
+    </div>
+    <div>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeVbrK6qDGq08gLhB6ZZ_aHlCDGJKPKs8SdW3UlvpgZ0KRPyA/viewform?embedded=true" style="color: blue;font-style: normal; text-decoration: none; text-align: center;
+        align-items: center;margin-left: 40px;"> inscrivez vous sur ce des formation </a>
+       
+    </div>
+
+    <!-- Formulaire de contact -->
+    <div class="form-container">
+        <h2>Contactez-moi</h2>
+        <form id="contactForm">
+            <div class="form-group">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+        <div id="formResponse" style="margin-top: 20px;"></div>
+    </div>
+
+    <!-- Tableau des projets -->
+    <div class="table-container">
+        <h2>Projets Récents</h2>
+        <table id="projectsTable">
+            <thead>
+                <tr>
+                    <th>Nom du Projet</th>
+                    <th>Technologies</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Application Web</td>
+                    <td>HTML, CSS, JavaScript, PHP</td>
+                    <td>Création d'une application web dynamique avec gestion de base de données.</td>
+                </tr>
+                <tr>
+                    <td>Portfolio</td>
+                    <td>HTML, CSS</td>
+                    <td>Site responsive présentant mes compétences et projets passés.</td>
+                </tr>
+                <tr>
+                    <td>Gestion de Stock</td>
+                    <td>C#, ASP.NET</td>
+                    <td>Application de gestion des stocks pour une entreprise.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 20px; background-color: #007bff; color: white;">
+        <p>&copy; 2024 Développeur Full Stack marie victoire </p>
+    </footer>
+
+   <script src="script.js"></script>
+   <script src="qrcode.min.js"></script>
+
+</body>
+</html>
