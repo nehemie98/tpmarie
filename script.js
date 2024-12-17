@@ -10,8 +10,8 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 
     // Afficher une réponse à l'utilisateur
     let response = document.getElementById('formResponse');
-    response.innerHTML = `<div style="padding: 10px; background-color: #28a745; color: white;">Merci ${name}, votre message a bien été envoyé !</div>`;
-
+    response.innerHTML = `<div style="padding: 10px; background-color: #28a745; color: white;">Merci ${name}, votre message vennant de ${email} a  bien été envoyé !</div>`;
+alert(message+name+email);
     // Vider les champs du formulaire
     document.getElementById('contactForm').reset();
 });
